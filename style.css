@@ -26,20 +26,26 @@ h4 {
 .navi {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 400px;
-    width: 100px;
+    height: 600px;
+    width: 200px;
     text-align: left;
     padding: 10px;
     margin-top: 80px;
-    border: solid 3px goldenrod;
     border-radius: 0 15px 15px 0;
     font-size: 16px;
     font-family: 'Arial';
     font-style: 'italic';
-    background-image: url("papier2.jpg");
-    background-size: 25%;
-}
+    z-index: 2;
+   }
+
+   .navbar{
+    height: 600px;
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 80px;
+    z-index: 1;
+   }
 
 .bild {
     border: solid 2px goldenrod;
