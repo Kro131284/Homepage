@@ -115,8 +115,8 @@ h4 {
 }
 
 body {
-    background-image: url("Holz.jpg");
-    background-size: 50%;
+    background-image: url("Holz3.jpg");
+    background-size: 35%;
 
 }
 
@@ -131,11 +131,11 @@ body {
 }
 
 .Schrift {
-    font-size: 50px;
-    font-family: 'Haettenschweiler';
+    font-size: 45px;
+    font-family: 'Calibri';
     color: goldenrod;
-    top: 450px;
-    left: 1050px;
+    top: 350px;
+    left: 975px;
     position: relative;
     z-index: 5;
 }
