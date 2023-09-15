@@ -17,26 +17,47 @@
     z-index: 1;
 }
 
+.pfeilrechts {
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    top: 850px;
+    left: 1450px;
+    z-index: 3;
+}
+
+.pfeillinks {
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    top: 850px;
+    left: 420px;
+    z-index: 3;
+}
 
 
 
 .navi {
     display: flex;
-flex-direction: column;
-height: 600px;
-width: 200px;
-    top: 500px;
-    left: 300px;
-    z-index: 4;
+    flex-direction: column;
+    height: 500px;
+    width: 150px;
+    top: 200px;
+    left: 83px;
+    position: absolute;
+    border: solid 2px goldenrod;
+    border-radius: 0px 0px 45px 45px;
+    font-size: 32px;
+    z-index: 2;
 
 
 }
 
 .navbar {
-    height: 600px;
-    width: 200px;
-    top: 250px;
-    left: 350px;
+    height: 800px;
+    width: 240px;
+    top: 130px;
+    left: 30px;
     position: absolute;
     z-index: 1;
 }
@@ -64,7 +85,7 @@ width: 200px;
 
 }
 
-.text {
+.textr {
 
     text-align: left;
     float: right;
@@ -72,7 +93,7 @@ width: 200px;
     margin: 5px;
     padding: 100px;
     position: absolute;
-    top: 350px;
+    top: 125px;
     width: 520px;
     font-size: 16px;
     font-family: 'Verdana';
@@ -80,22 +101,19 @@ width: 200px;
 
 }
 
-.text1 {
+.textl {
 
     text-align: left;
     position: absolute;
     float: right;
-    right: 270px;
-    top: 185px;
-    width: 60%;
+    left: 350px;
+    top: 135px;
+    width: 250px;
     margin: 5px;
     padding: 75px;
     font-size: 16px;
     font-family: 'Verdana';
-    background-image: url("buch3.jpg");
-    background-size: 100%;
-    border: solid 1px black;
-    border-radius: 0px 0px 0px 0px;
+    z-index: 2;
 
 }
 
@@ -123,10 +141,10 @@ body {
 }
 
 .cover {
-    display: flex;
+
     height: 1000px;
     width: 750px;
-    top: 40px;
+    top: 20px;
     left: 600px;
     position: absolute;
     z-index: 1;
