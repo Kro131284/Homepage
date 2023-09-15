@@ -22,7 +22,24 @@
     width: 65px;
     position: absolute;
     top: 850px;
-    left: 1450px;
+    left: 1475px;
+    z-index: 3;
+}
+
+.pfeillinks1 {
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    top: 645px;
+    left: 1px;
+    z-index: 3;
+}
+.pfeilrechts1 {
+    height: 40px;
+    width: 65px;
+    position: absolute;
+    top: 650px;
+    left: 1050px;
     z-index: 3;
 }
 
@@ -34,7 +51,6 @@
     left: 420px;
     z-index: 3;
 }
-
 
 
 .navi {
@@ -49,9 +65,22 @@
     border-radius: 0px 0px 45px 45px;
     font-size: 32px;
     z-index: 2;
-
-
 }
+
+.navi1 {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 150px;
+    top: 200px;
+    left: 83px;
+    position: absolute;
+    border: solid 2px goldenrod;
+    border-radius: 0px 0px 45px 45px;
+    font-size: 32px;
+    z-index: 2;
+}
+
 
 .navbar {
     height: 800px;
@@ -66,9 +95,9 @@
     border: solid 2px goldenrod;
     padding: 1px;
     position: absolute;
-    left: 450px;
+    left: 410px;
     border-radius: 0px 90px 0px 90px;
-    top: 300px;
+    top: 220px;
     height: 200px;
     width: 200px;
     z-index: 2;
@@ -89,12 +118,10 @@
 
     text-align: left;
     float: right;
-    left: 925px;
-    margin: 5px;
-    padding: 100px;
+    left: 1025px;
     position: absolute;
-    top: 125px;
-    width: 520px;
+    top: 250px;
+    width: 450px;
     font-size: 16px;
     font-family: 'Verdana';
     z-index: 2;
@@ -106,32 +133,52 @@
     text-align: left;
     position: absolute;
     float: right;
-    left: 350px;
-    top: 135px;
+    left: 400px;
+    top: 205px;
     width: 250px;
-    margin: 5px;
-    padding: 75px;
+    font-size: 16px;
+    font-family: 'Verdana';
+    z-index: 2;
+}
+
+.textr1 {
+
+    text-align: left;
+    float: right;
+    left: 600px;
+    position: absolute;
+    top: 0px;
+    width: 520px;
     font-size: 16px;
     font-family: 'Verdana';
     z-index: 2;
 
 }
 
-.text2 {
+.textl1 {
+
     text-align: left;
     position: absolute;
     float: right;
-    right: 270px;
-    top: 185px;
-    width: 60%;
-    margin: 5px;
-    padding: 50px;
+    left: 425px;
+    top: 200px;
+    width: 400px;
     font-size: 16px;
     font-family: 'Verdana';
-    background-image: url("buch3.jpg");
-    background-size: 100%;
-    border: solid 1px black;
-    border-radius: 0px 0px 0px 0px;
+    z-index: 3;
+}
+
+.textl2 {
+
+    text-align: left;
+    position: absolute;
+    float: right;
+    left: 435px;
+    top: 550px;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'Verdana';
+    z-index: 3;
 }
 
 body {
@@ -151,11 +198,35 @@ body {
 
 }
 
+.cover1 {
+
+    height: 1000px;
+    width: 750px;
+    top: 10px;
+    left: 600px;
+    position: absolute;
+    z-index: 1;
+
+}
+
 .Schrift {
     font-size: 45px;
     font-family: 'Calibri';
     color: goldenrod;
     top: 300px;
+    left: 750px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.Schrift1 {
+    height: 100px;
+    width: 400px;
+    font-size: 36px;
+    font-family: 'Calibri';
+    color: goldenrod;
+    top: 200px;
     left: 750px;
     position: relative;
     z-index: 2;
