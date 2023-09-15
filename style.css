@@ -11,9 +11,10 @@
     width: 1250px;
     border: solid 1px goldenrod;
     border-radius: 0 0 0 0;
-    top: 200px;
+    top: 175px;
     left: 250px;
     position: absolute;
+    z-index: 1;
 }
 
 
@@ -49,7 +50,7 @@ h4 {
     top: 300px;
     height: 200px;
     width: 200px;
-    z-index: 5;
+    z-index: 2;
     
 }
 
@@ -75,6 +76,7 @@ h4 {
     width: 520px;
     font-size: 16px;
     font-family: 'Verdana';
+    z-index: 2;
 
 }
 
@@ -126,7 +128,7 @@ body {
     top: 60px;
     left: 750px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
 
 }
 
@@ -137,5 +139,5 @@ body {
     top: 350px;
     left: 975px;
     position: relative;
-    z-index: 5;
+    z-index: 2;
 }
