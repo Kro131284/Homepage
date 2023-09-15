@@ -1,0 +1,141 @@
+.titel {
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+
+
+}
+
+.buch3 {
+    height: 750px;
+    width: 1250px;
+    border: solid 1px goldenrod;
+    border-radius: 0 0 0 0;
+    top: 200px;
+    left: 250px;
+    position: absolute;
+}
+
+
+
+h4 {
+    text-align: center;
+}
+
+.navi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 100px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 80px;
+    border: solid 3px goldenrod;
+    border-radius: 0 15px 15px 0;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-style: 'italic';
+    background-image: url("papier2.jpg");
+    background-size: 25%;
+}
+
+.bild {
+    border: solid 2px goldenrod;
+    padding: 1px;
+    position: absolute;
+    left: 450px;
+    border-radius: 0px 90px 0px 90px;
+    top: 300px;
+    height: 200px;
+    width: 200px;
+    z-index: 5;
+    
+}
+
+
+
+.item {
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    font-family: 'Impact';
+
+}
+
+.text {
+
+    text-align: left;
+    float: right;
+    left: 825px;
+    margin: 5px;
+    padding: 100px;
+    position: absolute;
+    top: 400px;
+    width: 520px;
+    font-size: 16px;
+    font-family: 'Verdana';
+
+}
+
+.text1 {
+
+    text-align: left;
+    position: absolute;
+    float: right;
+    right: 270px;
+    top: 185px;
+    width: 60%;
+    margin: 5px;
+    padding: 75px;
+    font-size: 16px;
+    font-family: 'Verdana';
+    background-image: url("buch3.jpg");
+    background-size: 100%;
+    border: solid 1px black;
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+.text2 {
+    text-align: left;
+    position: absolute;
+    float: right;
+    right: 270px;
+    top: 185px;
+    width: 60%;
+    margin: 5px;
+    padding: 50px;
+    font-size: 16px;
+    font-family: 'Verdana';
+    background-image: url("buch3.jpg");
+    background-size: 100%;
+    border: solid 1px black;
+    border-radius: 0px 0px 0px 0px;
+}
+
+body {
+    background-image: url("Holz.jpg");
+    background-size: 50%;
+
+}
+
+.cover {
+    height: 1100px;
+    width: 850px;
+    top: 60px;
+    left: 750px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+.Schrift {
+    font-size: 50px;
+    font-family: 'Haettenschweiler';
+    color: goldenrod;
+    top: 450px;
+    left: 1050px;
+    position: relative;
+    z-index: 5;
+}
