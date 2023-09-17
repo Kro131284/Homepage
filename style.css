@@ -1,4 +1,5 @@
 .titel {
+
     text-align: center;
     margin: 50px;
     padding: 5px;
@@ -7,6 +8,7 @@
 }
 
 .buch3 {
+
     height: 750px;
     width: 1250px;
     border: solid 1px goldenrod;
@@ -18,6 +20,7 @@
 }
 
 .pfeilrechts {
+    display: flex;
     height: 40px;
     width: 65px;
     position: absolute;
@@ -27,6 +30,7 @@
 }
 
 .pfeillinks1 {
+    display: flex;
     height: 40px;
     width: 65px;
     position: absolute;
@@ -34,7 +38,9 @@
     left: 1px;
     z-index: 3;
 }
+
 .pfeilrechts1 {
+    display: flex;
     height: 40px;
     width: 65px;
     position: absolute;
@@ -44,6 +50,7 @@
 }
 
 .pfeillinks {
+    display: flex;
     height: 40px;
     width: 65px;
     position: absolute;
@@ -54,7 +61,7 @@
 
 
 .navi {
-    display: flex;
+
     flex-direction: column;
     height: 500px;
     width: 150px;
@@ -68,7 +75,7 @@
 }
 
 .navi1 {
-    display: flex;
+
     flex-direction: column;
     height: 500px;
     padding-top: 75px;
@@ -83,7 +90,7 @@
 }
 
 .navi2 {
-    display: flex;
+
     flex-direction: column;
     height: 500px;
     padding-top: 75px;
@@ -98,6 +105,7 @@
 }
 
 .navbar {
+
     height: 800px;
     width: 240px;
     top: 130px;
@@ -107,6 +115,7 @@
 }
 
 .navbar1 {
+
     height: 800px;
     width: 240px;
     top: 130px;
@@ -116,6 +125,7 @@
 }
 
 .bild {
+
     border: solid 2px goldenrod;
     padding: 1px;
     position: absolute;
@@ -131,6 +141,7 @@
 
 
 .item {
+
     padding: 5px;
     margin: 5px;
     font-size: 14px;
@@ -193,8 +204,6 @@
 }
 
 .textl2 {
-
-    text-align: left;
     position: absolute;
     float: right;
     left: 435px;
@@ -206,13 +215,16 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("Holz3.jpg");
     background-size: 35%;
 
 }
 
 .cover {
-
+    display: flex;
     height: 1000px;
     width: 750px;
     top: 20px;
@@ -223,7 +235,7 @@ body {
 }
 
 .cover1 {
-
+    display: flex;
     height: 1000px;
     width: 750px;
     top: 10px;
@@ -234,6 +246,7 @@ body {
 }
 
 .Schrift {
+    display: flex;
     font-size: 45px;
     font-family: 'Calibri';
     color: goldenrod;
@@ -245,6 +258,7 @@ body {
 
 
 .Schrift1 {
+    display: flex;
     height: 100px;
     width: 400px;
     font-size: 36px;
