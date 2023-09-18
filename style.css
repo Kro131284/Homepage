@@ -92,7 +92,7 @@ display: flex;
 }
 
 .navi2 {
-
+display: flex;
     flex-direction: column;
     height: 500px;
     padding-top: 75px;
@@ -271,3 +271,4 @@ body {
     position: absolute;
     z-index: 2;
 }
+
