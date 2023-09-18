@@ -272,3 +272,21 @@ body {
     z-index: 2;
 }
 
+.Login {
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+    font-size: 45px;
+    font-family: 'Calibri';
+    border: solid 3px goldenrod;
+    border-radius: 30px 30px 160px 160px;
+    height: 450px;
+    width: 450px;
+    color: goldenrod;
+    top: 250px;
+    left: 750px;
+    position: absolute;
+    z-index: 2;
+    padding: 25px;
+    margin: 5px;
+}
