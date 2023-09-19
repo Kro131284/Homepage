@@ -63,7 +63,7 @@
 
 
 .navi {
-display: flex;
+    display: flex;
     flex-direction: column;
     height: 500px;
     width: 150px;
@@ -77,7 +77,7 @@ display: flex;
 }
 
 .navi1 {
-display: flex;
+    display: flex;
     flex-direction: column;
     height: 500px;
     padding-top: 75px;
@@ -92,7 +92,7 @@ display: flex;
 }
 
 .navi2 {
-display: flex;
+    display: flex;
     flex-direction: column;
     height: 500px;
     padding-top: 75px;
@@ -107,7 +107,7 @@ display: flex;
 }
 
 .navbar {
-display: flex;
+    display: flex;
     height: 800px;
     width: 240px;
     top: 130px;
@@ -117,7 +117,7 @@ display: flex;
 }
 
 .navbar1 {
-display: flex;
+    display: flex;
     height: 800px;
     width: 240px;
     top: 130px;
@@ -157,7 +157,7 @@ display: flex;
     float: right;
     left: 1025px;
     position: absolute;
-    top: 250px;
+    top: 200px;
     width: 450px;
     font-size: 16px;
     font-family: 'Verdana';
@@ -171,7 +171,7 @@ display: flex;
     position: absolute;
     float: right;
     left: 400px;
-    top: 205px;
+    top: 200px;
     width: 250px;
     font-size: 16px;
     font-family: 'Verdana';
@@ -248,7 +248,7 @@ body {
 }
 
 .Schrift {
-   
+
     font-size: 45px;
     font-family: 'Calibri';
     color: goldenrod;
@@ -260,7 +260,7 @@ body {
 
 
 .Schrift1 {
-   
+
     height: 100px;
     width: 400px;
     font-size: 36px;
@@ -273,9 +273,9 @@ body {
 }
 
 .Login {
-   display: flex;
-   flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 45px;
     font-family: 'Calibri';
     border: solid 3px goldenrod;
@@ -291,9 +291,9 @@ body {
     margin: 5px;
 }
 
-button{
+button {
     height: 25px;
-    width:95px;
+    width: 95px;
     background-color: goldenrod;
     font-size: 15px;
     margin: 10px;
