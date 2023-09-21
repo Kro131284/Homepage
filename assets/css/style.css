@@ -304,3 +304,15 @@ button {
     flex-direction: row;
 
 }
+
+.feet {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    padding: 3px;
+    color: black;
+    border-top: solid 1px black;
+    bottom: 0;
+    background-image: url("");
+    border-radius: 90px 90px 0 0;
+}
