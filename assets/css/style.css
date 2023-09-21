@@ -217,11 +217,10 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("Holz3.jpg");
+ 
+    background-image: url("../images/Holz3.jpg");
     background-size: 35%;
+    z-index: 0;
 
 }
 
