@@ -174,7 +174,7 @@
     top: 200px;
     width: 250px;
     font-size: 16px;
-    font-family: 'Verdana';
+    font-family:'Verdana';
     z-index: 2;
 }
 
@@ -249,7 +249,7 @@ body {
 .Schrift {
 
     font-size: 45px;
-    font-family: 'Calibri';
+    font-family: 'adorable';
     color: goldenrod;
     top: 300px;
     left: 750px;
@@ -263,7 +263,7 @@ body {
     height: 100px;
     width: 400px;
     font-size: 36px;
-    font-family: 'Calibri';
+    font-family: 'adorable';
     color: goldenrod;
     top: 200px;
     left: 750px;
