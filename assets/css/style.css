@@ -316,3 +316,15 @@ button {
     background-image: url("");
     border-radius: 90px 90px 0 0;
 }
+
+.zettel{
+    text-align: center;
+    width: 450px;
+    height: 400px;
+    border: thin 1px black;
+    position: absolute;
+    right: 10px;
+    top: 300px;
+    left: 1500px
+    z-index: 4;
+}
