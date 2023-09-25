@@ -317,14 +317,27 @@ button {
     border-radius: 90px 90px 0 0;
 }
 
-.zettel{
+.zettel1{
+
     text-align: center;
-    width: 450px;
-    height: 400px;
+width: 550px;
+    height: 450px;
     border: thin 1px black;
     position: absolute;
-    right: 10px;
+    right: 50px;
     top: 300px;
-    left: 1500px;
+    left: 1350px;
     z-index: 4;
+}
+
+.notiz{
+    text-align: left;
+    font-family: 'adorable';
+    width: 650px;
+    height: 550px;
+    position: absolute;
+    top: 455px;
+    left: 1500px;
+    z-index: 5;
+    
 }
