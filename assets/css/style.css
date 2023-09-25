@@ -325,6 +325,6 @@ button {
     position: absolute;
     right: 10px;
     top: 300px;
-    left: 1500px
+    left: 1500px;
     z-index: 4;
 }
