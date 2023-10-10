@@ -416,3 +416,10 @@ pointer-events: auto;
     background: #CD201F;
     color: #ffffff;
 }
+
+.wrapper .twitch:hover,
+.wrapper .twitch:hover .tooltip,
+.wrapper .twitch:hover .tooltip::before{
+    background: #8c01cc;
+    color: #ffffff;
+}
