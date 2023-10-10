@@ -423,3 +423,11 @@ pointer-events: auto;
     background: #8c01cc;
     color: #ffffff;
 }
+
+.smicons{
+    position: absolute;
+top: 1000px;
+    right: 1px;
+justify-content: flex-end;
+  
+}
