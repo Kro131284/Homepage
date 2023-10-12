@@ -353,8 +353,8 @@ width: 550px;
     border-radius: 50%;
     padding: 15px;
     margin: 10px;
-    width: 50px;
-    height: 50px;
+    width: 15px;
+    height: 15px;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -410,24 +410,25 @@ pointer-events: auto;
     color: #ffffff;
 }
 
-.wrapper .youtube:hover,
+.wrapper .youtube:hover ,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before{
     background: #CD201F;
     color: #ffffff;
 }
 
-.wrapper .twitch:hover,
-.wrapper .twitch:hover .tooltip,
-.wrapper .twitch:hover .tooltip::before{
+.wrapper .twitch:hover ,
+.wrapper .twitch:hover .tooltip ,
+.wrapper .twitch:hover .tooltip::before{ 
     background: #8c01cc;
     color: #ffffff;
 }
 
-.smicons{
+.smicons {
     position: absolute;
 top: 1000px;
     right: 1px;
 justify-content: flex-end;
   
 }
+
